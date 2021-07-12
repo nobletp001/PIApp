@@ -80,6 +80,9 @@ export default function Footer() {
             </div>
           </div>
         </footer>
+        <div class="toggle-theme">
+          <i class="fas"></i>
+        </div>
       </div>
     );
 }

@@ -17,7 +17,7 @@ export default function Main() {
                 </div>
                 <div class="home-btn">
                   <a href="#" class="btn btn-1">
-             
+                    {" "}
                     Read More about Pi Hub......
                   </a>
                 </div>
@@ -25,8 +25,7 @@ export default function Main() {
               <div class="col-md-5 text-center">
                 <div class="home-img">
                   <div class="circle"></div>
-                 <img src="img/payment_img.png" alt="pi hub" />
-
+                  <img src="img/payment_img.png" alt="pi hub" />
                 </div>
               </div>
             </div>
@@ -39,7 +38,7 @@ export default function Main() {
               <div class="col-lg-8">
                 <div class="section-title">
                   <h2>
-                    <span>Major </span>Pi <span>Utilities</span>
+                    <span>Major </span>Pi <span>Utilities</span>{" "}
                   </h2>
                 </div>
               </div>
@@ -52,7 +51,7 @@ export default function Main() {
                   </div>
                   <h3> Pi Mall</h3>
                   <p>
-             
+                    {" "}
                     Fast and Hitch Free Shopping Experience using Pi coins....
                   </p>
                 </div>
@@ -74,13 +73,13 @@ export default function Main() {
             </div>
           </div>
         </section>
-        
+
 <section class="fun-facts section-padding">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-6 col-md-5 d-flex align-items-center justify-content-center">
 				<div class="fun-facts-img">
-					<img src="img/image2.png" alt="fun facts" />
+				<img src="img/image2.png" alt="fun facts" />
 
 				</div>
 			</div>
@@ -124,87 +123,83 @@ export default function Main() {
 	</div>
 </section>
 
-
-
-<section class="contact section-padding">
-	<div class="container">
-		<div class="row justify-content-center">
-			<div class="col-lg-8">
-				<div class="section-title">
-					<h2>get in <span>touch</span></h2>
-				</div>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-lg-4 col-md-5">
-				<div class="contact-info">
-					<h3>For Any Enquiry and Support</h3>
-					<div class="contact-info-item">
-						<i class="fas fa-location-arrow"></i>
-						<h4>Company Address</h4>
-						<p> Abuja, Lagos, Port Harcourt</p>
-					</div>
-					<div class="contact-info-item">
-						<i class="fas fa-envelope"></i>
-						<h4>Write to us at</h4>
-						<p>info@pihub.com</p>
-					</div>
-					<div class="contact-info-item">
-						<i class="fas fa-phone"></i>
-						<h4>Call Us on</h4>
-						<p>+234 12345678</p>
-					</div>
-				</div>
-			</div>
-			<div className="col-lg-8 col-md-7">
-  <div className="contact-form">
-    <form>
-      <div className="row">
-        <div className="col-lg-6">
-          <div className="form-group">
-            <input type="text" placeholder="Your Name" className="form-control" />
-          </div>
+<section className="contact section-padding">
+  <div className="container">
+    <div className="row justify-content-center">
+      <div className="col-lg-8">
+        <div className="section-title">
+          <h2>get in <span>touch</span></h2>
         </div>
-        <div className="col-lg-6">
-          <div className="form-group">
-            <input type="text" placeholder="Your Email" className="form-control" />
+      </div>
+    </div>
+    <div className="row">
+      <div className="col-lg-4 col-md-5">
+        <div className="contact-info">
+          <h3>For Any Enquiry and Support</h3>
+          <div className="contact-info-item">
+            <i className="fas fa-location-arrow" />
+            <h4>Company Address</h4>
+            <p> Abuja, Lagos, Port Harcourt</p>
+          </div>
+          <div className="contact-info-item">
+            <i className="fas fa-envelope" />
+            <h4>Write to us at</h4>
+            <p>info@pihub.com</p>
+          </div>
+          <div className="contact-info-item">
+            <i className="fas fa-phone" />
+            <h4>Call Us on</h4>
+            <p>+234 12345678</p>
           </div>
         </div>
       </div>
-      <div className="row">
-        <div className="col-lg-12">
-          <div className="form-group">
-            <input type="text" placeholder="Your Phone Number" className="form-control" />
-          </div>
+      <div className="col-lg-8 col-md-7">
+        <div className="contact-form">
+          <form>
+            <div className="row">
+              <div className="col-lg-6">
+                <div className="form-group">
+                  <input type="text" placeholder="Your Name" className="form-control" />
+                </div>
+              </div>
+              <div className="col-lg-6">
+                <div className="form-group">
+                  <input type="text" placeholder="Your Email" className="form-control" />
+                </div>
+              </div>
+            </div>
+            <div className="row">
+              <div className="col-lg-12">
+                <div className="form-group">
+                  <input type="text" placeholder="Your Phone Number" className="form-control" />
+                </div>
+              </div>
+            </div>
+            <div className="row">
+              <div className="col-lg-12">
+                <div className="form-group">
+                  <input type="text" placeholder="Subject" className="form-control" />
+                </div>
+              </div>
+            </div>
+            <div className="row">
+              <div className="col-lg-12">
+                <div className="form-group">
+                  <textarea placeholder="Your Message" className="form-control" defaultValue={""} />
+                </div>
+              </div>
+            </div>
+            <div className="row">
+              <div className="col-lg-12">
+                <button type="submit" className="btn btn-1">Send Message</button>
+              </div>
+            </div>
+          </form>
         </div>
       </div>
-      <div className="row">
-        <div className="col-lg-12">
-          <div className="form-group">
-            <input type="text" placeholder="Subject" className="form-control" />
-          </div>
-        </div>
-      </div>
-      <div className="row">
-        <div className="col-lg-12">
-          <div className="form-group">
-            <textarea placeholder="Your Message" className="form-control"/>
-          </div>
-        </div>
-      </div>
-      <div className="row">
-        <div className="col-lg-12">
-          <button type="submit" className="btn btn-1">Send Message</button>
-        </div>
-      </div>
-    </form>
-  </div>
-</div>
-
-		</div>
-	</div>	
+    </div>
+  </div>	
 </section>
-
 
       </React.Fragment>
     );
