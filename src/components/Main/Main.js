@@ -18,7 +18,7 @@ export default function Main() {
                 <div class="home-btn">
                   <a href="#" class="btn btn-1">
                     {" "}
-                    Read More about Pi Hub......
+                    Read More about PiHub......
                   </a>
                 </div>
               </div>
@@ -59,6 +59,7 @@ export default function Main() {
                   <div class="icon">
                     <i class="fa fa-exchange-alt" aria-hidden="true"></i>
                   </div>
+
                   <h3> Pi Exchange</h3>
                   <p> Instant and Reliable Crypo Trading Experience</p>
                 </div>
@@ -93,7 +94,7 @@ export default function Main() {
 							<div class="col-sm-6">
 								<div class="fun-fact-item style-1">
 									<h3> Pihub</h3>
-									<span>Pi Pay, Pi Exchange, Pi Mall.</span>
+									<span>Welcome to PiPay, PiExchange, PiMall.</span>
 								</div>
 							</div>
 							<div class="col-sm-6">
@@ -111,7 +112,7 @@ export default function Main() {
 							<div class="col-sm-6">
 								<div class="fun-fact-item style-4">
 									<h3>10k</h3>
-									<span> Currently more than 10,000 active nodes</span>
+									<span> More than 10,000 active nodes</span>
 								</div>
 							</div>
 						
@@ -123,84 +124,89 @@ export default function Main() {
 	</div>
 </section>
 
-<section className="contact section-padding">
-  <div className="container">
-    <div className="row justify-content-center">
-      <div className="col-lg-8">
-        <div className="section-title">
-          <h2>get in <span>touch</span></h2>
-        </div>
-      </div>
-    </div>
-    <div className="row">
-      <div className="col-lg-4 col-md-5">
-        <div className="contact-info">
-          <h3>For Any Enquiry and Support</h3>
-          <div className="contact-info-item">
-            <i className="fas fa-location-arrow" />
-            <h4>Company Address</h4>
-            <p> Abuja, Lagos, Port Harcourt</p>
-          </div>
-          <div className="contact-info-item">
-            <i className="fas fa-envelope" />
-            <h4>Write to us at</h4>
-            <p>info@pihub.com</p>
-          </div>
-          <div className="contact-info-item">
-            <i className="fas fa-phone" />
-            <h4>Call Us on</h4>
-            <p>+234 12345678</p>
-          </div>
-        </div>
-      </div>
-      <div className="col-lg-8 col-md-7">
-        <div className="contact-form">
-          <form>
-            <div className="row">
-              <div className="col-lg-6">
-                <div className="form-group">
-                  <input type="text" placeholder="Your Name" className="form-control" />
-                </div>
-              </div>
-              <div className="col-lg-6">
-                <div className="form-group">
-                  <input type="text" placeholder="Your Email" className="form-control" />
-                </div>
-              </div>
-            </div>
-            <div className="row">
-              <div className="col-lg-12">
-                <div className="form-group">
-                  <input type="text" placeholder="Your Phone Number" className="form-control" />
-                </div>
-              </div>
-            </div>
-            <div className="row">
-              <div className="col-lg-12">
-                <div className="form-group">
-                  <input type="text" placeholder="Subject" className="form-control" />
-                </div>
-              </div>
-            </div>
-            <div className="row">
-              <div className="col-lg-12">
-                <div className="form-group">
-                  <textarea placeholder="Your Message" className="form-control" defaultValue={""} />
-                </div>
-              </div>
-            </div>
-            <div className="row">
-              <div className="col-lg-12">
-                <button type="submit" className="btn btn-1">Send Message</button>
-              </div>
-            </div>
-          </form>
-        </div>
-      </div>
-    </div>
-  </div>	
-</section>
+       
+<section class="contact section-padding">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-lg-8">
+				<div class="section-title">
+					<h2>get in <span>touch</span></h2>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-4 col-md-5">
+				<div class="contact-info">
+					<h3>For Any Enquiry and Support</h3>
+					<div class="contact-info-item">
+						<i class="fas fa-location-arrow"></i>
+						<h4>Company Address</h4>
+						<p> Abuja, Lagos, Port Harcourt</p>
+					</div>
+					<div class="contact-info-item">
+						<i class="fas fa-envelope"></i>
+						<h4>Write to us at</h4>
+						<p>info@pihub.com</p>
+					</div>
+					<div class="contact-info-item">
+						<i class="fas fa-phone"></i>
+						<h4>Call Us on</h4>
+						<p>+234 12345678</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-8 col-md-7">
+				<div class="contact-form">
+					<form>
+						<div class="row">
+							<div class="col-lg-6">
+								<div class="form-group">
+								<input type="text" placeholder="Your Name" className="form-control" required />
 
+								</div>
+							</div>
+							<div class="col-lg-6">
+								<div class="form-group">
+								<input type="text" placeholder="Your Email" className="form-control" required />
+
+								</div>
+							</div>
+						</div>
+						<div class="row">
+					
+							<div class="col-lg-12">
+								<div class="form-group">
+								<input type="text" placeholder="Your Phone Number" className="form-control" required />
+
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-lg-12">
+								<div class="form-group">
+								<input type="text" placeholder="Subject" className="form-control" required />
+
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-lg-12">
+								<div class="form-group">
+									<textarea placeholder="Your Message" class="form-control" required></textarea>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-lg-12">
+								<button type="submit" class="btn btn-1">Send Message</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>	
+</section>
       </React.Fragment>
     );
 }

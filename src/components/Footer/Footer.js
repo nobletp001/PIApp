@@ -58,16 +58,28 @@ export default function Footer() {
                   <h3>Social Pages</h3>
                   <ul>
                     <li>
-                      <a href="#">facebook</a>
+                      <a href="#">
+                        facebook{" "}
+                        <i class="fab fa-facebook" aria-hidden="true"></i>
+                      </a>
                     </li>
                     <li>
-                      <a href="#">twitter</a>
+                      <a href="#">
+                        twitter{" "}
+                        <i class="fab fa-twitter" aria-hidden="true"></i>
+                      </a>
                     </li>
                     <li>
-                      <a href="#">instagram</a>
+                      <a href="#">
+                        instagram{" "}
+                        <i class="fab fa-instagram" aria-hidden="true"></i>
+                      </a>
                     </li>
                     <li>
-                      <a href="#">linkedin</a>
+                      <a href="#">
+                        linkedin{" "}
+                        <i class="fab fa-linkedin" aria-hidden="true"></i>
+                      </a>
                     </li>
                   </ul>
                 </div>
@@ -75,7 +87,7 @@ export default function Footer() {
             </div>
             <div class="row">
               <div class="col-lg-12">
-                <p class="copyright-text">&copy;2021 @ Pi Hub</p>
+                <p class="copyright-text">&copy;2021 @ PiHub</p>
               </div>
             </div>
           </div>

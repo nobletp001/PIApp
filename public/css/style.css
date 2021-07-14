@@ -114,6 +114,20 @@ ul{
 	text-align: center;
 	margin-top: 20px;
 }
+.owl-carousel .owl-item img {
+    display: block;
+    width: 31%;
+  
+
+    box-shadow: var(--shadow-black-100);
+	margin: 15px;
+	padding: 30px;
+	border-radius: 10px;
+	
+	position: relative;
+	z-index: 1;
+	overflow: hidden;
+}
 .owl-carousel button.owl-dot{
 	height: 6px;
 	width: 24px;
@@ -128,18 +142,21 @@ ul{
 /*-------------
 Navbar
 -------------*/
+
 .navbar{
 	background-color: var(--main-color-2);
 	padding: 20px 0;
 }
+
 .navbar > .container{
 	padding: 0 15px;
 }
 .navbar-brand{
-	font-size: 30px;
+	font-size: 20px;
 	color: #ffffff;
 	font-weight: 500;
 	text-transform: capitalize;
+	font-family: verdana;
 }
 .navbar .nav-item{
 	margin-left: 40px;
@@ -167,6 +184,11 @@ position: relative;
 .navbar .nav-item .nav-link:hover::before{
 	transform: scale(1);
 }
+
+.navbar-brand img.center-block {
+	height: 70px;
+}
+
 /*-------------
 Home Section
 -------------*/
@@ -273,8 +295,8 @@ Features Section
 	right: -1px;
 }
 .features .feature-item .icon{
-	height: 60px;
-	width: 60px;
+	height: 50px;
+	width: 50px;
 	margin: 0 auto 30px;
 	text-align: center;
 	font-size: 30px;
@@ -283,6 +305,7 @@ Features Section
 	z-index: 1;
 	transition: all 0.5s ease;
 }
+
 .features .feature-item .icon::before{
 	content: '';
 	position: absolute;
@@ -295,18 +318,22 @@ Features Section
 	z-index: -1;
 	opacity: 0;
 }
+
+
 .features .feature-item:hover .icon{
 	color: #ffffff;
 	font-size: 20px;
 }
+
 .features .feature-item:hover .icon::before{
 	left: 0;
 	border-radius: 50%;
 	opacity: 1;
 }
+
 .features .feature-item .icon i{
 	line-height: 60px;
-	font-size: 16px;
+	font-size: 50px;
 }
 .features .feature-item h3{
 	font-size: 22px;
@@ -364,7 +391,7 @@ Fun Facts Section
 }
 .fun-fact-item span{
 	font-size: 16px;
-	text-transform: uppercase;
+	text-transform: capitalize;
 	font-weight: 300;
 	margin: 0;
 	line-height: 26px;
@@ -453,7 +480,7 @@ Contact Section
 Footer Section
 -------------*/
 .footer{
-	background-color: var(--dark-to-main-color);
+	background-color: var(--bg-dark);
 	padding: 50px 0 0;
 }
 .footer-col h3{
